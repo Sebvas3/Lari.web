@@ -1,0 +1,41 @@
+body {
+  background: linear-gradient(to bottom, rgb(4, 4, 46), lightblue);
+}
+
+img.foti {
+  border-style: solid;
+  border-color: silver;
+  border-radius: 25px;
+}
+
+h1 {
+  color: silver;
+  font-size: 50px;
+  font-family: Georgia;
+  text-align: center;
+  font-weight: bold;
+}
+
+h2 {
+  color: rgb(4, 4, 46);
+  font-style: initial;
+  font-size: 30px;
+}
+
+a:hover {
+  color: greenyellow;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.col {
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+
+.col img {
+  height: 100px;
+}
